@@ -168,6 +168,11 @@ A more convienient way is to use Skyscraper from you Desktop system: Below you
 can find a step-by-step guide for Linux systems, macOS should be similar.
 Windows desktop users can use SMB shares and can adapt the following steps.
 
+1. For a pass-through of the screenshot without any artwork do copy the
+   [`batocera-artwork.xml`](https://github.com/Gemba/skyscraper/blob/master/batocera-artwork.xml)
+   alongside to your `config.ini`. Add the artwork file in your configuration
+   file as seen in the
+   [`config.ini.example`](https://github.com/Gemba/skyscraper/blob/b8ca88f908b384c31148deccb8599ed439b81043/config.ini.example#L191-L192).
 1. Mount the root folder of Batocera in your Desktop system. Let the mountpoint
    be `/home/mylogin/bato_sshfs` in this example:
    ```bash
